@@ -22,6 +22,7 @@ About 30 minutes, most of it downloads. You need a Mac and an Android phone, bot
 | Mac with Apple Silicon (M1 or newer), macOS 14 Sonoma or newer | runs Buddy's server and the local AI |
 | 16 GB RAM recommended (8 GB works with smaller models), ~20 GB free disk | the AI models are 3-6 GB each, Whisper ~550 MB |
 | Android phone, Android 10 or newer | the Buddy app |
+| [Android Studio](https://developer.android.com/studio) on the Mac | to build the Buddy APK (there is no ready-made download) |
 | [Tailscale](https://tailscale.com/download) (free) on the Mac **and** the phone, same account | reach your Mac from anywhere, privately |
 | [Homebrew](https://brew.sh) | setup.sh installs the tools with it |
 | [Claude Code](https://claude.com/claude-code) with a Claude plan (Pro or Max), signed in | the Mac agent, Studio, CV Studio, app fixes |
@@ -100,11 +101,23 @@ Then `./setup.sh --check` shows what the running server itself sees.
 
 ## Step 4: Install the app on your phone
 
-1. On your phone, open this repository's **[Releases](../../releases)** page and download the latest `Buddy-x.y.apk`.
-2. Open it. Android asks to allow installs from your browser: allow, then **Install**.
-3. Install **Tailscale** from the Play Store and sign in with the same account as the Mac.
+There is no ready-made APK to download: you build and install the APK yourself.
 
-(Or build it yourself: see [Build the app yourself](../README.md#build-the-app-yourself).)
+1. Install [Android Studio](https://developer.android.com/studio) on the Mac and open it once, so it sets up the Android SDK.
+2. Build the APK:
+   ```bash
+   cd ~/buddy/android
+   JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home" ./gradlew assembleDebug
+   ```
+   The APK is `android/app/build/outputs/apk/debug/app-debug.apk`.
+3. Put it on the phone. With USB debugging on and the phone plugged in:
+   ```bash
+   ~/Library/Android/sdk/platform-tools/adb install -r app/build/outputs/apk/debug/app-debug.apk
+   ```
+   Or copy `app-debug.apk` to the phone any way you like, open it, and allow installs from that app when Android asks.
+4. Install **Tailscale** from the Play Store and sign in with the same account as the Mac.
+
+More detail: [Build the app yourself](../README.md#build-the-app-yourself).
 
 ## Step 5: Pair your phone
 

@@ -35,6 +35,7 @@ Mac's screen), only from your Tailscale network or home Wi-Fi, and every request
 |---|---|
 | Mac | Apple Silicon (M1 or newer), macOS 14+, **16 GB RAM recommended**, ~20 GB free disk |
 | Phone | Android 10 or newer |
+| Build | [Android Studio](https://developer.android.com/studio) on the Mac, to build the APK yourself |
 | Network | [Tailscale](https://tailscale.com) (free) on the Mac and the phone |
 | AI | [Claude Code](https://claude.com/claude-code) with a Claude plan (Pro or Max) for the Mac agent; Ollama and Whisper run locally for free |
 | Optional | Google AI Pro + Chrome (Google Flow, YouTube autopilot), Gemini (Etsy designs), Suno (songs), ntfy |
@@ -47,8 +48,8 @@ cd ~/buddy
 ./setup.sh
 ```
 
-Then allow the Mac permissions it lists, install the APK from [Releases](../../releases) on your phone, and pair with
-the 6-digit code. **Full step-by-step guide: [docs/SETUP.md](docs/SETUP.md).**
+Then allow the Mac permissions it lists, build and install the APK on your phone (see
+[Build the app yourself](#build-the-app-yourself)), and pair with the 6-digit code. **Full step-by-step guide: [docs/SETUP.md](docs/SETUP.md).**
 
 Check your setup any time:
 
@@ -65,8 +66,19 @@ Check your setup any time:
 
 ## Build the app yourself
 
+There is no ready-made APK to download: you build and install the APK yourself. You need
+[Android Studio](https://developer.android.com/studio) (it brings the Java and Android SDK the build uses).
+
 ```bash
-cd android
+cd ~/buddy/android
 JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home" ./gradlew assembleDebug
 # -> android/app/build/outputs/apk/debug/app-debug.apk
 ```
+
+Install it on your phone, either:
+
+- **With a USB cable**: turn on USB debugging on the phone (Settings > About phone > tap Build number 7 times, then
+  Developer options > USB debugging), plug it in, and run
+  `~/Library/Android/sdk/platform-tools/adb install -r app/build/outputs/apk/debug/app-debug.apk`
+- **Without a cable**: copy `app-debug.apk` to the phone (Google Drive, Quick Share, AirDroid...), open it there and
+  allow installs from that app when Android asks.
