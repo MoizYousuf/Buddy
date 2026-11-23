@@ -6,10 +6,9 @@ phone talks to it from anywhere over Tailscale. Nothing goes to a Buddy cloud: t
 
 Made by [Khanani Innovations](https://khananiinnovations.com/work/buddy).
 
-<!-- Screenshots: add images to docs/img/ and list them here -->
 | Home | Mac control | Studio | Money book |
 |---|---|---|---|
-| _screenshot_ | _screenshot_ | _screenshot_ | _screenshot_ |
+| <img src="docs/img/home.jpg" width="200" alt="Home"> | <img src="docs/img/mac-control.jpg" width="200" alt="Mac control"> | <img src="docs/img/studio.jpg" width="200" alt="YouTube Studio autopilot"> | <img src="docs/img/money-book.jpg" width="200" alt="Money book"> |
 
 ## What it does
 
