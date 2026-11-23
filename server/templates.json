@@ -1,0 +1,104 @@
+{
+  "having_state": {
+    "label": "-ing with state verbs (am having, am knowing)",
+    "en": "Verbs like have (own), know, want and belong describe a state, so they don't take -ing. Say \"I have\", not \"I am having\".",
+    "roman": "\"Have, know, want, belong\" jaise verbs haalat batate hain, is liye in ke saath -ing nahi lagta. \"I am having\" nahi, \"I have\" kahein.",
+    "urdu": "‏have، know، want، belong‏ جیسے افعال کسی حالت کو بیان کرتے ہیں، اس لیے ان کے ساتھ ‏-ing‏ نہیں لگتا۔ ‏\"I am having\"‏ نہیں، ‏\"I have\"‏ کہیں۔"
+  },
+  "experience_of": {
+    "label": "missing 'of' in 'X years of experience'",
+    "en": "Use \"of\" between the time and \"experience\": \"3 years of experience\".",
+    "roman": "Waqt aur \"experience\" ke beech \"of\" aata hai: \"3 years of experience\".",
+    "urdu": "وقت اور ‏\"experience\"‏ کے درمیان ‏\"of\"‏ آتا ہے: ‏\"3 years of experience\"‏۔"
+  },
+  "since_for": {
+    "label": "since vs for",
+    "en": "Use \"for\" with a length of time (for two years) and \"since\" with a starting point (since 2022).",
+    "roman": "Muddat ke saath \"for\" aata hai (for two years), aur shuru hone ke waqt ke saath \"since\" (since 2022).",
+    "urdu": "مدت کے ساتھ ‏\"for\"‏ آتا ہے ‏(for two years)‏، اور شروع ہونے کے وقت کے ساتھ ‏\"since\"‏ ‏(since 2022)‏۔"
+  },
+  "present_perfect_continuous": {
+    "label": "present continuous instead of present perfect continuous",
+    "en": "For something that started in the past and is still going on, use \"have been + -ing\": \"I have been working here for two years\".",
+    "roman": "Jo kaam pehle shuru hua aur ab bhi chal raha hai, us ke liye \"have been + -ing\" lagta hai: \"I have been working here for two years\".",
+    "urdu": "جو کام پہلے شروع ہوا اور اب بھی جاری ہے، اس کے لیے ‏\"have been + -ing\"‏ لگتا ہے: ‏\"I have been working here for two years\"‏۔"
+  },
+  "past_tense": {
+    "label": "present tense used for a past event",
+    "en": "Words like yesterday or last week need the past tense: go → went, complete → completed.",
+    "roman": "\"Yesterday\" ya \"last week\" jaise alfaaz ke saath past tense aata hai: go → went, complete → completed.",
+    "urdu": "‏\"yesterday\"‏ یا ‏\"last week\"‏ جیسے الفاظ کے ساتھ ماضی کا صیغہ آتا ہے: ‏go → went، complete → completed‏۔"
+  },
+  "subject_verb_agreement": {
+    "label": "he/she/it with don't/have/go",
+    "en": "With he, she or it, use doesn't / has / goes: \"He doesn't know\".",
+    "roman": "He, she ya it ke saath doesn't / has / goes aata hai: \"He doesn't know\".",
+    "urdu": "‏he، she‏ یا ‏it‏ کے ساتھ ‏doesn't / has / goes‏ آتا ہے: ‏\"He doesn't know\"‏۔"
+  },
+  "discuss_about": {
+    "label": "discuss about / mention about",
+    "en": "\"Discuss\" already includes \"about\": say \"discuss the salary\", not \"discuss about the salary\".",
+    "roman": "\"Discuss\" ke andar \"about\" ka matlab pehle se hai: \"discuss the salary\" kahein, \"discuss about\" nahi.",
+    "urdu": "‏\"discuss\"‏ کے اندر ‏\"about\"‏ کا مطلب پہلے سے موجود ہے: ‏\"discuss the salary\"‏ کہیں، ‏\"discuss about\"‏ نہیں۔"
+  },
+  "can_able": {
+    "label": "can able to",
+    "en": "Use either \"can\" or \"am able to\", never both: \"I can handle pressure\".",
+    "roman": "Ya \"can\" kahein ya \"am able to\", dono ek saath nahi: \"I can handle pressure\".",
+    "urdu": "یا ‏\"can\"‏ کہیں یا ‏\"am able to\"‏، دونوں ایک ساتھ نہیں: ‏\"I can handle pressure\"‏۔"
+  },
+  "myself_intro": {
+    "label": "'Myself X' introduction",
+    "en": "To introduce yourself, say \"I'm Ali\" or \"My name is Ali\", not \"Myself Ali\".",
+    "roman": "Apna taaruf karwate waqt \"I'm Ali\" ya \"My name is Ali\" kahein, \"Myself Ali\" nahi.",
+    "urdu": "اپنا تعارف کرواتے وقت ‏\"I'm Ali\"‏ یا ‏\"My name is Ali\"‏ کہیں، ‏\"Myself Ali\"‏ نہیں۔"
+  },
+  "belong_from": {
+    "label": "I am belonging from",
+    "en": "Say \"I'm from Lahore\". \"Belong\" means being part of something, and it never takes -ing.",
+    "roman": "\"I'm from Lahore\" kahein. \"Belong\" ka matlab kisi cheez ka hissa hona hai, aur is ke saath -ing nahi lagta.",
+    "urdu": "‏\"I'm from Lahore\"‏ کہیں۔ ‏\"belong\"‏ کا مطلب کسی چیز کا حصہ ہونا ہے، اور اس کے ساتھ ‏-ing‏ نہیں لگتا۔"
+  },
+  "done_graduation": {
+    "label": "I have done my graduation",
+    "en": "Say \"I graduated from Punjab University in 2021\". A finished year needs the simple past, not \"have done\".",
+    "roman": "\"I graduated from Punjab University in 2021\" kahein. Guzra hua saal ho to simple past aata hai, \"have done\" nahi.",
+    "urdu": "‏\"I graduated from Punjab University in 2021\"‏ کہیں۔ گزرا ہوا سال ہو تو سادہ ماضی آتا ہے، ‏\"have done\"‏ نہیں۔"
+  },
+  "do_the_needful": {
+    "label": "do the needful / revert back",
+    "en": "\"Do the needful\" and \"revert back\" sound outdated. Say \"Please take care of it and get back to me\".",
+    "roman": "\"Do the needful\" aur \"revert back\" purane lagte hain. \"Please take care of it and get back to me\" kahein.",
+    "urdu": "‏\"do the needful\"‏ اور ‏\"revert back\"‏ پرانے لگتے ہیں۔ ‏\"Please take care of it and get back to me\"‏ کہیں۔"
+  },
+  "article_missing": {
+    "label": "missing a/an/the",
+    "en": "Singular countable nouns need an article: \"a hard worker\", \"the office\".",
+    "roman": "Akeli ginne wali cheez ke saath a/an/the zaroori hai: \"a hard worker\", \"the office\".",
+    "urdu": "اکیلی گنی جانے والی چیز کے ساتھ ‏a/an/the‏ ضروری ہے: ‏\"a hard worker\"، \"the office\"‏۔"
+  },
+  "question_order": {
+    "label": "question word order",
+    "en": "In a question the helper verb comes before the subject: \"Where do you work?\", not \"Where you work?\".",
+    "roman": "Sawal mein helping verb subject se pehle aata hai: \"Where do you work?\", \"Where you work?\" nahi.",
+    "urdu": "سوال میں مددگار فعل فاعل سے پہلے آتا ہے: ‏\"Where do you work?\"‏، ‏\"Where you work?\"‏ نہیں۔"
+  },
+  "preposition": {
+    "label": "wrong preposition",
+    "en": "This word goes with a different preposition (e.g. \"good at\", \"married to\", \"depends on\").",
+    "roman": "Is lafz ke saath doosra preposition aata hai (jaise \"good at\", \"married to\", \"depends on\").",
+    "urdu": "اس لفظ کے ساتھ دوسرا حرفِ جار آتا ہے (جیسے ‏\"good at\"، \"married to\"، \"depends on\"‏)۔"
+  },
+  "word_choice": {
+    "label": "wrong or unnatural word",
+    "en": "The word is understandable, but a native speaker would choose a different one here.",
+    "roman": "Lafz samajh mein aata hai, magar yahan angrez koi aur lafz istemal karte hain.",
+    "urdu": "لفظ سمجھ میں آتا ہے، مگر یہاں انگریز کوئی اور لفظ استعمال کرتے ہیں۔"
+  },
+  "urdu_input": {
+    "label": "user spoke in Urdu",
+    "en": "Here's how to say that in English. Repeat it once so it sticks.",
+    "roman": "Ye baat English mein aise kehte hain. Ek dafa dohra lein taake yaad ho jaye.",
+    "urdu": "یہ بات انگریزی میں ایسے کہتے ہیں۔ ایک دفعہ دہرا لیں تاکہ یاد ہو جائے۔"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_readme": "Copy to config.json (setup.sh does this) and fill in your own values. config.json is git-ignored. Every key is optional; see docs/SETUP.md.",
+  "owner_name": "Your first name",
+  "port": 8787,
+  "bonjour": true,
+  "tailscale_ip": "",
+  "allowed_ips": [],
+  "lan_prefixes": [
+    "192.168.",
+    "10.",
+    "172.16.",
+    "172.17.",
+    "172.18.",
+    "172.19.",
+    "172.20.",
+    "172.21.",
+    "172.22.",
+    "172.23.",
+    "172.24.",
+    "172.25.",
+    "172.26.",
+    "172.27.",
+    "172.28.",
+    "172.29.",
+    "172.30.",
+    "172.31."
+  ],
+  "timezone_label": "",
+  "models": {
+    "fast": "gemma3:4b",
+    "slow": "gemma4:e4b-it-qat"
+  },
+  "whisper": {
+    "cli": "/opt/homebrew/bin/whisper-cli",
+    "model": "models/ggml-large-v3-turbo-q5_0.bin"
+  },
+  "chrome": {
+    "profile_dir": "Default",
+    "profile_name": "Personal",
+    "google_account": "you@example.com",
+    "other_profiles": []
+  },
+  "youtube": {
+    "channel_name": "",
+    "channel_id": "",
+    "about": "",
+    "studio_url": "http://127.0.0.1:8765",
+    "factory_dir": "~/video-factory",
+    "python": "~/video-factory/.venv/bin/python",
+    "skill_file": "~/.claude/scheduled-tasks/daily-video/SKILL.md"
+  },
+  "songs": {
+    "project_dir": "~/song-factory/naat"
+  },
+  "etsy": {
+    "data_dir": "~/TrendStudio/data"
+  },
+  "cv": {
+    "kit_dir": "~/Documents/cv-kit",
+    "node": ""
+  },
+  "projects_dir": "~/Documents/projects"
+}

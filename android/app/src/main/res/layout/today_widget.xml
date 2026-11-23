@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/t_root"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical"
+    android:padding="14dp" android:background="@drawable/today_widget_bg">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="☀️ Aaj ka plan" android:textColor="#FFFFFF" android:textSize="15sp" android:textStyle="bold" />
+    <TextView android:id="@+id/t_video" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:textSize="12sp" android:maxLines="1" android:ellipsize="end" android:layout_marginTop="4dp" />
+    <TextView android:id="@+id/t_idea" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#F2FFFFFF" android:textSize="12sp" android:maxLines="1" android:ellipsize="end" />
+    <TextView android:id="@+id/t_money" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#FFF7D6" android:textSize="12sp" android:textStyle="bold" android:maxLines="1" />
+    <TextView android:id="@+id/t_wait" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#E6FFFFFF" android:textSize="11sp" android:maxLines="1" />
+</LinearLayout>

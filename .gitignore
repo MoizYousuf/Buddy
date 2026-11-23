@@ -1,0 +1,60 @@
+# ---------- Android build output and local machine settings ----------
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# ---------- Your settings (copy server/config.example.json) ----------
+server/config.json
+
+# ---------- Server runtime data: personal, per-Mac, never committed ----------
+# Every .json / .jsonl the server writes next to itself is runtime state. Only these two ship:
+server/*.json
+server/*.jsonl
+!server/templates.json
+!server/config.example.json
+server/jobs/
+server/analytics/
+server/practice/
+server/etsy_runs/
+server/money_photos/
+server/money_reports/
+server/cvs/
+server/models/
+server/node_modules/
+server/package-lock.json
+server/media_key
+server/resume.pdf
+server/*.log
+server/__pycache__/
+__pycache__/
+*.pyc
+
+# compiled Swift / Objective-C helpers (setup.sh builds them)
+server/macaudio
+server/macdisplays
+server/maclayers
+server/maclocked
+server/macpack
+server/macscroll
+server/macstream
+server/macstream264
+server/macsvg
+server/macvdisplay
+server/pdftext
+
+# Whisper / on-device models (large downloads)
+models/
+
+# secrets, just in case
+.env
+*.pem
+*.p12
+
+.DS_Store
